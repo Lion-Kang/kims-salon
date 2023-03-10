@@ -87,7 +87,9 @@ body {
   #about-style {
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items:center;
+    width: 80%;
   }
 
   #about-img {
@@ -107,6 +109,26 @@ body {
     padding: 0px 20px;
   }
 
+  #about {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #gallery {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #gallery-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+  }
+
   #biz-info {
     display: flex;
     
@@ -124,12 +146,6 @@ body {
     justify-content: center;
   } 
 
-  #gallery{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 3rem;
-  }
 
   .box-shadow {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -177,12 +193,19 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    
+  }
+
+  #center {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
   }
 
   #reviews {
-    margin-left: 20px;
-    margin-right: 20px;
+      padding: 0px 20px;
+      display: flex;
+      flex-direction: column;
   }
 
   .phone-number-white {
@@ -230,7 +253,7 @@ body {
     color: black;
     width: 400px;
     height: 40px;
-    margin: 50px auto;
+    margin: 50px 0px;
     background-color: #ff0000; /* red */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -262,3 +285,4 @@ body {
       flex-wrap: wrap;
     }
   }
+

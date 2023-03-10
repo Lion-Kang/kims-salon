@@ -5,6 +5,7 @@ body {
     font-family: 'Alegreya Sans',Arial, sans-serif;
     margin-left: 0px;
     margin-top: 0;
+    position: relative;
   }
   
   html {
@@ -12,6 +13,11 @@ body {
     scroll-padding-top: var(--top-spacing);
   }
   
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   h1 {
     margin: 0;
   }

@@ -1,0 +1,264 @@
+/* CSS file for My Portfolio website */
+body {
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Alegreya Sans',Arial, sans-serif;
+    margin-left: 0px;
+    margin-top: 0;
+  }
+  
+  html {
+    --top-spacing: 150px;
+    scroll-padding-top: var(--top-spacing);
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+.navbar {
+  position: sticky;
+  color: red;
+  top: 0;
+  width:100%;
+  text-align: center;
+  background-color: beige;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  scroll-padding-top: 120px;
+}
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  h2 {
+    color: black;
+  }
+
+  h4 {
+    display: inline;
+  }
+
+  .stars{
+    color: rgb(221, 221, 39);
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li h3 {
+    margin-top: 20px;
+  }
+  
+  li p {
+    margin-bottom: 20px;
+  }
+
+
+
+  #about-style {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+
+  #about-img {
+    width: 100%;
+    height: auto;
+  }
+
+  #container1 {
+    width:80%;
+  }
+
+  #appointments {
+    padding: 0px 20px;
+  }
+
+  #services {
+    padding: 0px 20px;
+  }
+
+  #biz-info {
+    display: flex;
+    
+  }
+
+  #address {
+    font-size: 16px;
+    text-align: left;
+    padding-right: 20px;
+    height: 20px;
+  }
+
+  #container2 {
+    display: flex;
+    justify-content: center;
+  } 
+
+  #gallery{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .center-text{
+    text-align: center;
+  }
+
+  .responsive {
+    padding: 0 20px;
+  }
+
+  #hours {
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  #phone-hours {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #phone-hours p {
+    margin:0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #text3d{
+    color: red;
+    font-size: 50px;
+    letter-spacing: .01em;
+    text-decoration: none;
+    text-shadow: 
+      0px 4px 0 #282828, 
+      0px 5px 0 #262626, 
+      0px 2px 0px rgba(0, 0, 0, 0.8);
+  }
+
+  #apt-services {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+  }
+
+  #reviews {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .phone-number-white {
+    color: white;
+    text-decoration: none;
+  }
+ 
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .phone-number{
+    text-decoration: none;
+    color: black;
+  }
+
+  .phone-box {
+    width: 270px;
+    height: 50px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer; /* optional */
+  }
+  
+  .phone-number {
+    margin: 0;
+    padding: 0;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 400px;
+    height: 40px;
+    margin: 50px auto;
+    background-color: #ff0000; /* red */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+
+  @media screen and (max-width: 641px) {
+    #biz-info {
+      display: flex;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    #apt-services {
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     }
+     #services {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+  }
+
+  @media screen and (max-width: 1367px) {
+    #gallery{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }

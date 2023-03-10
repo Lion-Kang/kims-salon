@@ -82,26 +82,6 @@ body {
     margin-bottom: 20px;
   }
 
-
-
-  #about-style {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    width: 80%;
-  }
-
-  #about-img {
-    width: 100%;
-    height: auto;
-    padding: 10px 0px;
-  }
-
-  #container1 {
-    width:80%;
-  }
-
   #appointments {
     padding: 0px 20px;
   }
@@ -114,6 +94,19 @@ body {
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
+  }
+
+  .about-style {
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    width: 80%;
+  }
+
+  #about-img {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
   }
 
   #gallery {
@@ -135,11 +128,13 @@ body {
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
   #biz-info {
     display: flex;
-    
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   #address {
@@ -150,8 +145,7 @@ body {
   }
 
   #container2 {
-    display: flex;
-    justify-content: center;
+    width: 80%;
   } 
 
 
@@ -263,9 +257,33 @@ body {
     border-radius: 5px;
   }
 
+  .box-yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 250px;
+    height: 25px;
+    margin: 50px 0px;
+    background-color: yellow; /* yellow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+
+  .color-yellow {
+    color: rgb(204, 204, 10);
+  }
+
+  .padding-updown {
+    padding: 10px;
+  }
+
   @media screen and (max-width: 641px) {
     #biz-info {
       display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 

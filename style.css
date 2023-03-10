@@ -95,6 +95,7 @@ body {
   #about-img {
     width: 100%;
     height: auto;
+    padding: 10px 0px;
   }
 
   #container1 {
@@ -127,7 +128,14 @@ body {
     justify-content: center;
     text-align: center;
     gap: 3rem;
+    padding: 10px;
   }
+
+  #reviews {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
 
   #biz-info {
     display: flex;
@@ -199,14 +207,10 @@ body {
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 50%;
+    width: 100%;
   }
 
-  #reviews {
-      padding: 0px 20px;
-      display: flex;
-      flex-direction: column;
-  }
+
 
   .phone-number-white {
     color: white;

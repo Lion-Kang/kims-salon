@@ -110,7 +110,8 @@ body {
     width: 100%;
     height: auto;
     padding: 10px 0px;
-  }
+  } 
+  
 
   #gallery {
     padding: 0px 20px;
@@ -137,6 +138,7 @@ body {
   #biz-info {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
   }
 
@@ -204,14 +206,14 @@ body {
 
 
 
-  .phone-number-white {
-    color: white;
+  .phone-number-red {
+    color: red;
     text-decoration: none;
   }
  
   footer {
-    background-color: black;
-    color: white;
+    background-color: beige;
+    color: red;
     padding: 20px;
     text-align: center;
   }

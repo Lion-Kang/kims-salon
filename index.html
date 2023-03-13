@@ -37,9 +37,56 @@
   <div id="apt-services">
   <section id="appointments">
     <h2 class="box">Appointments</h2>
-    <p id="phone-hours">Kim's Salon does not schedule online.
-      <br><br>
-      For quotes and scheduling questions, <br> please use the phone number below.
+
+    <table class="apt-table">
+      <col width=auto/>
+      <tr>
+        <th class="apt-box-nolink">Choose haircut below:</th>
+        <td>Est. Time</td>
+      </tr>
+
+      <!--Woman's Haircut Table Row-->
+      <tr>
+        
+        <th class="apt-box">
+          <!-- Calendly link widget begin -->
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+          <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/briceama/1-hour-womans-hair'});return false;">Woman's Haircut</a>
+          <!-- Calendly link widget end -->
+        </th>
+        <td>1 Hour</td>
+      </tr>
+      
+        <!--Men's Haircut Table Row-->
+        <tr>
+          <th class="apt-box">
+          <!-- Calendly link widget begin -->
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+          <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/briceama/30-min-mens-haircut'});return false;">Men's or Boy's Haircut</a>
+          <!-- Calendly link widget end -->
+        </th>
+        <td>30 Min.</td>
+      </tr>
+
+    <!--Girl's Haircut Table Row-->
+    <tr>
+      <th class="apt-box">
+        <!-- Calendly link widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/briceama/30-min-womans-haircut'});return false;">Girl's Haircut</a>
+        <!-- Calendly link widget end -->
+      </th>
+      <td>30 Min.</td>
+    </tr>
+</table>
+
+    <!--<p id="phone-hours">Kim's Salon does not schedule online.
+      <br><br>-->
+
+      <p class="center-text">For quotes and scheduling questions, <br> please use the phone number below.
     </p>
     <div id="phone-hours">
     <a href="tel:5036267979">
@@ -65,10 +112,23 @@
 
   <section id="services">
     <h2 class="box">Services</h2>
-    <p id="phone-hours">Woman's Haircut......$40+**</p>
-    <p id="phone-hours">Men's Haircut............$24**</p>
-    <p id="phone-hours">Kid's Haircut..............$20**</p>
-    <p id="phone-hours">** Prices are subject to change any given time. <br>Please call <a class="phone-number" href="tel:5036267979">503-626-7979</a> for current pricing.</p>
+    <table class="price-table" border="1">
+      <col width=auto/>
+      <tr>
+        <th>Woman's Haircut</th>
+        <td>$40 and up**</td>
+      </tr>
+      <tr>
+        <th>Men's or Boy's Haircut</th>
+        <td>$24**</td>
+      </tr>
+      <tr>
+        <th>Girls under 10 years old</th>
+        <td>$30**</td>
+      </tr>
+     
+    </table>
+    <p id="phone-hours">** Prices are subject to change any given time. <br>Please call <a class="phone-number" href="tel:5036267979">503-626-7979</a> for current pricing.</p>    
   </section>
 </div>
 
